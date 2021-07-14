@@ -10,11 +10,12 @@ body {
     
     font-size: 22px;
 
-    border: black solid 2px;
+    border: black solid 3px;
     border-radius: 10px;
     
-    margin-top: 80px;
+    margin-top: 50px;
 }
+
 
 .container2 {
     display: flex;
@@ -22,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     
-    border: black solid 2px;
+    border: black solid 3px;
     border-radius: 10px;
 
     margin-top: 10px;
@@ -34,13 +35,40 @@ body {
 .container2-item {
     margin: 10px;
 }
+/*Individual Item:*/
 .container2 h3 {
     font-size: 23px;
 }
 .container2 span {
     font-size: 30px;
 }
+.container2 #word_placeholder {
+    background-color: darkgrey;
+    color: black;
+    
+    border-radius: 5px;
+}
 
+
+/*Footer*/
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    width: 99%;
+    height: 20%;
+    
+    border: 3px black solid;
+    border-radius: 10px;
+    
+    background-color: darkgray;
+    
+    font-size: 20px;
+}
 
 
 /*Media Queries: */
